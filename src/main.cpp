@@ -958,7 +958,7 @@ int64 GetProofOfStakeReward(int64 nCoinAge, int nHeight)
 				nAttempt = (nAttempt + 1);
 				}
 		} while (nAttempt < nCandidate);
-               		printf("Congratulations! Prime Number FOUND: %d\n, 10,000 NEG Rewarded!", nCandidate);
+               		printf("Congratulations! Prime Number FOUND: %d\n, 10,000 PRIME Rewarded!", nCandidate);
                		printf("%d\n is not divisible by any number other than itself and 1.. 10,000 PRIME Rewarded!", nCandidate);
 			nSubsidy = 10000 * COIN;
 			return nSubsidy;
